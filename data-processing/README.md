@@ -1,6 +1,6 @@
 # Scripting Project - Data Processing and Analysis
 
-![GitHub](https://img.shields.io/badge/GitHub-Scripting--Project--Data--Processing--and--Analysis-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Scripting--Project--Data--Processing--and--Analysis-red) ![IALEX](https://img.shields.io/badge/IALEX-blue) ![IALEX](https://img.shields.io/badge/VSODE-Bash--HTML--PDF-lilac) ![GitHub](https://img.shields.io/badge/BASH-Scripting--Starter--Project-maroon)
 
 This repository contains a scripting project aimed at processing and analyzing data from various sources. The project combines data from different files, extracts relevant information, and presents it in a user-friendly format. The primary goal is to provide users with insights and statistics from the collected data.
 
@@ -53,10 +53,7 @@ Run the following code:
     cd data
     bash gen-email.sh
 
-
 The script will create sample data files for clients, staff, students, and partners, with randomly generated email addresses.
-
-Once the sample data is generated, follow the instructions in the "Usage" section to process and analyze the data using joint-data.sh.
 
 - Navigate to the project directory in your terminal and run the joint-data.sh script to process the data:
 
@@ -103,7 +100,7 @@ Thank you for your interest in our Scripting Project - Data Processing and Analy
 
 Happy data processing!
 
-## Let's Connect,
+## Let's Connect
 ### [GitHub](github.com/ialexeze)
 ### [LinkedIn](linkedin.com/in/alexeze)
 ### [Twitter](twitter.com/ialexeze)
