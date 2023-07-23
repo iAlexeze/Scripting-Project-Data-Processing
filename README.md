@@ -50,6 +50,8 @@ To install wkhtmltopdf, run:
 
 - Run the gen-email.sh script to generate random sample data:
 
+Run the following code:
+
     bash gen-email.sh
 
 The script will create sample data files for clients, staff, students, and partners, with randomly generated email addresses.
@@ -57,6 +59,8 @@ The script will create sample data files for clients, staff, students, and partn
 Once the sample data is generated, follow the instructions in the "Usage" section to process and analyze the data using joint-data.sh.
 
 - Run the joint-data.sh script to process the data:
+
+Run the following code:
 
     bash joint-data.sh
 
