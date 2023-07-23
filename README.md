@@ -33,7 +33,7 @@ To run this project, you need the following prerequisites:
 
 1. Clone the repository to your local machine:
 
-    git clone https://github.com/your-username/Scripting-Project-Data-Processing-and-Analysis.git
+    git clone https://github.com/ialexeze/Scripting-Project-Data-Processing-and-Analysis.git
 
 2. Change into the project directory:
 
@@ -46,19 +46,18 @@ To install wkhtmltopdf, run:
 
     sudo apt install wkhtmltopdf -y
 
-- Navigate to the project directory in your terminal.
-
-- Run the gen-email.sh script to generate random sample data:
+- Navigate to the project directory in your terminal and follow these steps to generate random sample data:
 
 Run the following code:
-
+    cd data
     bash gen-email.sh
+
 
 The script will create sample data files for clients, staff, students, and partners, with randomly generated email addresses.
 
 Once the sample data is generated, follow the instructions in the "Usage" section to process and analyze the data using joint-data.sh.
 
-- Run the joint-data.sh script to process the data:
+- Navigate to the project directory in your terminal and run the joint-data.sh script to process the data:
 
 Run the following code:
 
