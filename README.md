@@ -1,6 +1,6 @@
 # Scripting Project - Data Processing and Analysis
 
-![GitHub](https://img.shields.io/badge/GitHub-Scripting--Project--Data--Processing--and--Analysis-red) ![IALEX](https://img.shields.io/badge/IALEX-blue) ![IALEX](https://img.shields.io/badge/Bash--VSCode--PDF-lilac)
+![GitHub](https://img.shields.io/badge/GitHub-Scripting--Project--Data--Processing--and--Analysis-red) ![IALEX](https://img.shields.io/badge/IALEX-blue) ![IALEX](https://img.shields.io/badge/VSODE-Bash--HTML--PDF-lilac) ![GitHub](https://img.shields.io/badge/BASH-Scripting--Starter--Project-maroon)
 
 This repository contains a scripting project aimed at processing and analyzing data from various sources. The project combines data from different files, extracts relevant information, and presents it in a user-friendly format. The primary goal is to provide users with insights and statistics from the collected data.
 
