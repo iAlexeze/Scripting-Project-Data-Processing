@@ -49,6 +49,7 @@ To install wkhtmltopdf, run:
 - Navigate to the project directory in your terminal and follow these steps to generate random sample data:
 
 Run the following code:
+    
     cd data
     bash gen-email.sh
 
@@ -67,7 +68,7 @@ The script will combine the data from various files, generate an HTML report, an
 
 Open the report.pdf file to view the analysis and statistics generated from the collected data.
 
-Features<a name="features"></a>
+## Features<a name="features"></a>
 - Combines data from multiple files into a single consolidated file.
 
 - Extracts phone numbers and email addresses from the combined data.
