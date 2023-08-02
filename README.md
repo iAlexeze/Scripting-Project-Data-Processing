@@ -1,9 +1,12 @@
 # Welcome to the My Scripting Project!
-
+[![DATA](https://img.shields.io/badge/GitHub-Scripting--Project--Data--Processing--and--Analysis-red)](https://github.com/your_username/Scripting-Project-Data-Processing-and-Analysis)
+[![AWESOME](https://img.shields.io/badge/GitHub-Awesome--Project-green)](https://github.com/your_username/Awesome-Project)
+[![IALEX](https://img.shields.io/badge/IALEX-blue)](https://www.ialex.com)
+[![VSODE](https://img.shields.io/badge/VSODE-Bash--HTML--PDF-lilac)](https://www.vsode.com)
 <p align="center">
 <img src="https://coralogix.com/wp-content/uploads/2022/03/What-is-Scripting.jpeg" alt="My Scripting Project" width="300" height="200">
 </p>
-![DATA](https://img.shields.io/badge/GitHub-Scripting--Project--Data--Processing--and--Analysis-red) ![AWESOME](https://img.shields.io/badge/GitHub-Awesome--Project-green) ![IALEX](https://img.shields.io/badge/IALEX-blue) ![IALEX](https://img.shields.io/badge/VSODE-Bash--HTML--PDF-lilac) 
+
 
 ## Introduction
 
