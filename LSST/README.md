@@ -1,7 +1,5 @@
 # Welcome to the Awesome Project!
 
-![Awesome Project](https://www.briantimoneyacting.co.uk/wp-content/uploads/2023/02/Awesome-1.jpg)
-
 ![GitHub](https://img.shields.io/badge/GitHub-Awesome--Project-green) ![IALEX](https://img.shields.io/badge/IALEX-blue) ![IALEX](https://img.shields.io/badge/VSODE-Bash--HTML--PDF-lilac) ![GitHub](https://img.shields.io/badge/BASH-Scripting--Starter--Project-maroon)
 
 
