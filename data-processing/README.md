@@ -101,8 +101,6 @@ Thank you for your interest in our Scripting Project - Data Processing and Analy
 Happy data processing!
 
 ## Let's Connect
-### [GitHub](github.com/ialexeze)
-### [LinkedIn](linkedin.com/in/alexeze)
-### [Twitter](twitter.com/ialexeze)
+### [GitHub](github.com/ialexeze)   [LinkedIn](linkedin.com/in/alexeze)   [Twitter](twitter.com/ialexeze)
 
 
