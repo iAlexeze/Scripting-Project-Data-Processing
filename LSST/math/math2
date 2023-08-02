@@ -1,0 +1,38 @@
+BEGIN {
+myprompt = "(To Stop press CTRL+D) > "
+printf "Welcome to Minus and Plus Calculation using awk program v0.1 \nUsage: NUMBER1 + NUMBER2 or NUMBER1 + NUMBER2\n\n"
+printf "%s" ,myprompt
+}
+
+{
+no1 = $1
+op = $2
+no2 = $3
+ans = 0
+if ( op == "+" )
+{
+ans = $1 + $3
+printf "%d %c %d = %d\n" ,no1,op,no2,ans
+printf "%s" ,myprompt
+}
+if ( $0 = "exit" )
+{
+exit
+}
+
+if ( op == "-" )
+{
+    ans = $1 - $3
+    printf "%d %c %d = %d\n", no1, op, no2, ans
+    printf "%s" ,myprompt
+}
+else
+{
+    printf "%s\n", "\n\tERROR! \nI only know to add and substract. \nUsage: NUMBER1 + NUMBER2 or NUMBER1 + NUMBER2\n"
+    printf "%s" ,myprompt
+}
+}
+
+END {
+printf "\nSee You next time, %s\n" , ENVIRON["USER"]
+}

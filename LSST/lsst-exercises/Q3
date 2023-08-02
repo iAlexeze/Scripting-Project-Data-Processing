@@ -1,0 +1,12 @@
+#!/bin/bash
+
+clear
+
+# Q.3.Write script to print nos as 5,4,3,2,1 using while loop.
+
+n=5
+
+while [ "$n" != 0 ]; do
+    echo "$n" 
+    n=`expr $n - 1`
+done

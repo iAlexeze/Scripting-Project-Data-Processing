@@ -1,0 +1,16 @@
+BEGIN {
+    info = "Enter a Number greater than 0 > "
+    printf info
+}
+
+{
+no = $1
+remn = 0
+while ( no > 1 )
+{
+remn = no % 10
+no /= 10
+printf "%d" ,remn
+}
+printf "\n"info
+}

@@ -1,0 +1,5 @@
+BEGIN {
+"date" | getline today
+# print $0
+printf today "\n"
+}

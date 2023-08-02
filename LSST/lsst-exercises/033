@@ -1,0 +1,48 @@
+The escape sequence \033 (also represented as \e or \x1B) is the ASCII escape character in octal notation. 
+It is used as a starting point for many terminal control sequences that allow you to manipulate the display and 
+formatting of text in the terminal. 
+These control sequences are typically used with the echo -e command in bash or other programming languages that support escape sequences.
+
+Here's a table of some common escape sequences (also known as ANSI escape codes) and their applications for text formatting 
+and display in the terminal:
+
+Escape Sequence	Description	Example
+\033[0m	    Reset all text attributes           (default colors and effects)	echo -e "\033[0mHello World"
+\033[1m	    Turn on bold/bright text	                                        echo -e "\033[1mHello World"
+\033[2m	    Turn off bold/bright text	                                        echo -e "\033[2mHello World"
+\033[3m	    Italic text (rarely supported)	                                    echo -e "\033[3mHello World"
+\033[4m	    Underline text	                                                    echo -e "\033[4mHello World"
+\033[5m	    Blink text	                                                        echo -e "\033[5mHello World"
+\033[7m	    Invert foreground and background colors	                            echo -e "\033[7mHello World"
+\033[30m	Set text color to black	                                            echo -e "\033[30mHello World"
+\033[31m	Set text color to red	                                            echo -e "\033[31mHello World"
+\033[32m	Set text color to green	                                            echo -e "\033[32mHello World"
+\033[33m	Set text color to yellow	                                        echo -e "\033[33mHello World"
+\033[34m	Set text color to blue	                                            echo -e "\033[34mHello World"
+\033[35m	Set text color to magenta	                                        echo -e "\033[35mHello World"
+\033[36m	Set text color to cyan	                                            echo -e "\033[36mHello World"
+\033[37m	Set text color to white	                                            echo -e "\033[37mHello World"
+\033[40m	Set background color to black	                                    echo -e "\033[40mHello World"
+\033[41m	Set background color to red	                                        echo -e "\033[41mHello World"
+\033[42m	Set background color to green	                                    echo -e "\033[42mHello World"
+\033[43m	Set background color to yellow	                                    echo -e "\033[43mHello World"
+\033[44m	Set background color to blue	                                    echo -e "\033[44mHello World"
+\033[45m	Set background color to magenta	                                    echo -e "\033[45mHello World"
+\033[46m	Set background color to cyan	                                    echo -e "\033[46mHello World"
+\033[47m	Set background color to white	                                    echo -e "\033[47mHello World"
+
+
+
+
+User
+
+2 / 2
+
+okay
+ChatGPT
+If you have any more questions or need further assistance, feel free to ask! Happy coding!
+
+
+
+
+

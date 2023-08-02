@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Q.7.Write script to print given numbers sum of all digit, For eg. If no is 123 it's sum of all digit will be 1+2+3 = 6.
+
+# Function to calculate the sum of digits
+function sum_of_digits() {
+    local num=$1
+    local sum=0
+
+    while [[ $num -gt 0 ]]; do
+        digit=$((num % 10))
+        sum=$((sum + digit))
+        num=$((num / 10))
+    done
+
+    echo $sum
+}
+
+# Main script
+
+if [[ $# -eq 1 ]]; then
+    number=$1
+
+    # Check if the input is a positive integer
+    if [[ $number =~ ^[0-9]+$ ]]; then
+        result=$(sum_of_digits $number)
+        echo "The sum of digits in $number is: $result"
+    else
+        echo "Error: Please provide a positive integer as input."
+        exit 1
+    fi
+else
+    echo "Error: Usage: $0 NUMBER"
+    exit 1
+fi

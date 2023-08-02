@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Q.6.Write script to print given number in reverse order, for eg. If no is 123 it must print as 321.
+
+rev_print=$(echo "$1" | rev)
+
+if test -z $1; then
+    echo -e "Error! \nUsage: $0 INPUT \t| \twhere 'input' can be a word or number"
+    exit 1
+else
+    printf "$rev_print \n"
+fi

@@ -1,0 +1,41 @@
+BEGIN{
+    printf "Welcome to my awk-read configurations. \n\nUsage: FILE1<source file> FILE2<destination file> \n"
+    printf "\nPress CTRL + C to exit \nEnter a command : > "
+}
+#
+# main logic is here
+#
+{
+sfile = $1
+dfile = $2
+issexist = "[ -e " $1 " ]"
+isdexist = "[ -e " $2 " ]"
+cpcmd = "cp " $1 " " $2
+
+if( ( system(issexist) ) != 0 )
+{
+    printf "Skipking \"%s\", does not exist\n",sfile
+    printf "\nPress CTRL + C to exit \nEnter a command : > "
+    next # read next record
+}
+
+if ( ( system(isdexist) ) == 0)
+{
+    printf "\"%s\", exist overwrite(y/N)? ", sfile
+    getline ans < "-"
+    if( ans == "y" || ans == "Y")
+    system(cpcmd)
+    else
+    printf "Stopped by %s.\n" ,ENVIRON["USER"]
+    exit
+}
+
+else
+    system(cpcmd)
+    printf "Copied %s to %s Successfully\n",sfile,dfile
+    exit 0
+}
+#
+# End action, if any, e.g. clean ups
+#
+END{}

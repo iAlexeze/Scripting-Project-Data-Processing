@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+# Q.5.Write Script to see current date, time, username, and current directory
+
+echo -e "Current date and time is `date` \n"
+echo -e "The user that is currently logged in is $USER\n" # or `whoami`
+echo -e "My current directory is `pwd` \n"

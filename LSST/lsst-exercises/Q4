@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Q.4. Write Script, using case statement to perform basic math operation as
+# follows
+# + addition
+# - subtraction
+# x multiplication
+# / division
+# The name of script must be 'q4' which works as follows
+# $ ./q4 20 / 3, Also check for sufficient command line arguments
+
+clear
+echo -e "-----------------------\n"
+
+if [[ $# -eq 3 ]]; then
+    case $2 in
+        +) ans=$(echo "$1 + $3" | bc);;
+        -) ans=$(echo "$1 - $3" | bc);;
+        /) ans=$(echo "scale=2; $1 / $3" | bc);;
+        x|X) ans=$(echo "$1 * $3" | bc);;
+        %) ans=$(echo "$1 % $3" | bc);;
+        *) echo Warning - $2 invalid operator, only +, -, x, /, and % operators allowed
+           exit;;
+    esac
+    echo "The answer is $ans" 
+else
+    echo -e "Error! \tUsage: $0 VALUE1 operator VALUE2 \n\nwhere value1 and value2 are numbers" 
+    exit 1
+fi

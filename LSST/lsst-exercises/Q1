@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Q.1. How to write shell script that will add two nos, which are supplied as command line argument, 
+# And if this two nos are not given show error and its usage
+clear
+echo -e "==================================================================\n"
+no1="$1"
+no2="$2"
+
+if [[ "$#" != 2 ]]; then
+    echo -e "Error! \nUsage: NUMBER1 + NUMBER 2"
+else
+    echo "$1 "+" $2 = " `expr $no1 + $no2`
+fi 
+

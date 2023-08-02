@@ -1,0 +1,68 @@
+Q.1. How to write shell script that will add two nos, which are supplied as command line argument, and if this two nos are not given
+show error and its usage
+
+Q.2.Write Script to find out biggest number from given three nos. Nos are supplied as command line argument. Print error if sufficient
+arguments are not supplied.
+
+Q.3.Write script to print nos as 5,4,3,2,1 using while loop.
+
+Q.4. Write Script, using case statement to perform basic math operation as
+follows
++ addition
+- subtraction
+x multiplication
+/ division
+The name of script must be 'q4' which works as follows
+$ ./q4 20 / 3, Also check for sufficient command line arguments
+
+Q.5.Write Script to see current date, time, username, and current directory
+
+Q.6.Write script to print given number in reverse order, for eg. If no is 123 it must print as 321.
+
+Q.7.Write script to print given numbers sum of all digit, For eg. If no is 123 it's sum of all digit will be 1+2+3 = 6.
+
+Q.8.How to perform real number (number with decimal point) calculation in Linux
+
+Q.9.How to calculate 5.12 + 2.5 real number calculation at $ prompt in Shell ?
+
+Q.10.How to perform real number calculation in shell script and store result to
+third variable , lets say a=5.66, b=8.67, c=a+b?
+
+Q.11.Write script to determine whether given file exist or not, file name is supplied as command line argument, also check for
+sufficient number of command line argument
+
+Q.12.Write script to determine whether given command line argument ($1) contains "*" symbol or not, if $1 does not contains "*"
+symbol add it to $1, otherwise show message "Symbol is not required". 
+
+For e.g. If we called this script Q12 then after giving ,
+$ Q12 /bin
+Here $1 is /bin, it should check whether "*" symbol is present or not if not it should print Required i.e. /bin/*, and if symbol present
+then Symbol is not required must be printed. Test your script as
+$ Q12 /bin
+$ Q12 /bin/*
+
+Q.13. Write script to print contains of file from given line number to next given number of lines. For e.g. If we called this script as
+Q13 and run as
+$ Q13 5 5 myf , Here print contains of 'myf' file from line number 5 to next 5 line of that file.
+
+Q.14. Write script to implement getopts statement, your script should understand following command line argument called this script
+Q14,
+Q14 -c -d -m -e
+Where options work as
+-c clear the screen
+-d show list of files in current working directory
+-m start mc (midnight commander shell) , if installed
+-e { editor } start this { editor } if installed
+
+Q.15. Write script called sayHello, put this script into your startup file called .bash_profile, the script should run as soon as you logon
+to system, and it print any one of the following message in infobox using dialog utility, if installed in your system, If dialog utility is
+not installed then use echo statement to print message : -
+Good Morning
+Good Afternoon
+Good Evening , according to system time.
+
+Q.16. How to write script, that will print, Message "Hello World" , in Bold and Blink effect, and in different colors like red, brown etc
+using echo command.
+
+Q.17. Write script to implement background process that will continually print current time in upper right corner of the screen , while
+user can do his/her normal job at $ prompt.

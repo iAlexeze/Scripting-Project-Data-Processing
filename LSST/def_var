@@ -1,0 +1,3 @@
+{
+print "Printing Rec. Number " NR " [" $0 "]. The Total Number of fields for this record is " NF ORS
+}

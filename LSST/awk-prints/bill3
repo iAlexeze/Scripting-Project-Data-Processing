@@ -1,0 +1,21 @@
+BEGIN {
+printf "\nBill for the 27-July-2023.\n"
+printf "By Alex Eze.\n\n"
+printf "---------------------------\n"
+}
+{
+total = $3 * $4
+recno = $1
+item = $2
+gtotal += total
+# printf "%d %s Rs.%f\n", recno, item, total
+printf "%d %-10s Rs.%2.2f\n", recno, item, total
+}
+END {
+printf "---------------------------\n"
+# printf "Total Rs. %f\n" ,gtotal
+printf "Total Rs. %.2f\n", gtotal
+printf "===========================\n\n"
+}
+
+

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Q.2.Write Script to find out the biggest number from given three nos. Nos are supplied as command-line arguments. Print an error if sufficient
+# arguments are not supplied.
+
+no1="$1"
+no2="$2"
+no3="$3"
+
+if [[ "$#" != 3 ]]; then
+    echo -e "Error! \nUsage: $0 NUMBER1 NUMBER2 NUMBER3"
+    exit 1
+
+elif [[ $no1 -gt $no2 && $no1 -gt $no3 ]]; then
+    echo "$no1 is the biggest number"
+    exit 0
+
+elif [[ $no2 -gt $no1 && $no2 -gt $no3 ]]; then
+    echo "$no2 is the biggest number"
+    exit 0
+
+else
+    echo "$no3 is the biggest number"
+fi

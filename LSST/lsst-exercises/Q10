@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Q.8.How to perform real number (number with decimal point) calculation in Linux
+
+# Q.9.How to calculate 5.12 + 2.5 real number calculation at $ prompt in Shell ?
+
+# Q.10.How to perform real number calculation in shell script and store result to
+# third variable , lets say a=5.66, b=8.67, c=a+b?
+
+a="$1"
+b="$2"
+c=`echo "$1 + $2" | bc`
+
+echo "The answer is $c"
